@@ -121,7 +121,8 @@ bool solveSuduko(int grid[N][N], int row, int col)
     return false;
 }
 
-int main()
+//driver function
+int main() 
 {
     // here 0 means unassigned cells
     int grid[N][N] = {{3, 0, 6, 5, 0, 8, 4, 0, 0},
